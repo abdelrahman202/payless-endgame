@@ -237,41 +237,10 @@ const Reservation: React.FC = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-sky-50 to-blue-50 py-12 relative overflow-hidden">
-      {/* Background decorative elements */}
-        <div className="bg-white rounded-2xl shadow-xl p-8 text-center relative z-10">
-        {/* Floating icons */}
-        <div className="absolute top-20 left-10 w-16 h-16 text-sky-200/20">
-          <Calendar className="w-full h-full animate-float" />
-        </div>
-        <div className="absolute top-40 right-20 w-12 h-12 text-blue-200/20">
-          <MapPin className="w-full h-full animate-bounce-slow" style={{animationDelay: '1s'}} />
-        </div>
-        <div className="absolute bottom-40 left-20 w-14 h-14 text-orange-200/20">
-          <Star className="w-full h-full animate-float" style={{animationDelay: '2s'}} />
-        </div>
-        <div className="absolute bottom-20 right-40 w-18 h-18 text-sky-200/20">
-          <Clock className="w-full h-full animate-bounce-slow" style={{animationDelay: '3s'}} />
-        </div>
-        <div className="absolute top-1/2 left-1/4 w-10 h-10 text-green-200/20">
-          <CheckCircle className="w-full h-full animate-float" style={{animationDelay: '0.5s'}} />
-        </div>
-        <div className="absolute top-1/3 right-1/3 w-8 h-8 text-purple-200/20">
-          <User className="w-full h-full animate-bounce-slow" style={{animationDelay: '1.5s'}} />
-        </div>
-        <div className="absolute bottom-1/3 left-1/3 w-12 h-12 text-blue-200/20">
-          <Shield className="w-full h-full animate-float" style={{animationDelay: '2.5s'}} />
-        </div>
-        
-        {/* Subtle gradient overlays */}
-        <div className="absolute top-0 left-0 w-96 h-96 bg-gradient-to-br from-sky-50/20 to-transparent rounded-full blur-3xl"></div>
-        <div className="absolute bottom-0 right-0 w-96 h-96 bg-gradient-to-tl from-blue-50/20 to-transparent rounded-full blur-3xl"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-gradient-to-r from-orange-50/10 to-transparent rounded-full blur-3xl"></div>
-      </div>
-
+    <div className="min-h-screen bg-gradient-to-br from-sky-50 to-blue-50 py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
-        <div className="text-center mb-12 relative z-10">
+        <div className="text-center mb-12">
           <Link 
             to="/" 
             className="inline-flex items-center space-x-2 text-sky-600 hover:text-sky-700 mb-6 transition-colors duration-200"
@@ -297,7 +266,7 @@ const Reservation: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 gap-8 relative z-10">
+        <div className="grid grid-cols-1 gap-8">
           {/* Benefits Sidebar */}
           <div className="w-full">
             <div className="bg-white rounded-2xl shadow-lg p-6 mb-8">
