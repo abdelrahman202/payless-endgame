@@ -25,7 +25,7 @@ import {
   Hotel,
   Plane,
   FileText,
-  Building,
+  Building2,
   ChevronDown,
   ChevronUp,
   HelpCircle,
@@ -123,7 +123,7 @@ const Home: React.FC = () => {
 
   const services = [
     {
-      icon: <Hotel className="h-12 w-12" />,
+      icon: <Hotel className="h-8 w-8" />,
       title: 'Hotels',
       description: 'Up to 20% off hotels inside and outside Egypt. We help find top-quality accommodation at the best price.',
       color: 'from-blue-500 to-blue-600',
@@ -131,7 +131,7 @@ const Home: React.FC = () => {
       image: 'https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&w=800'
     },
     {
-      icon: <Plane className="h-12 w-12" />,
+      icon: <Plane className="h-8 w-8" />,
       title: 'Flight Tickets',
       description: 'Up to 10% discount on global flights.',
       color: 'from-sky-500 to-sky-600',
@@ -139,7 +139,7 @@ const Home: React.FC = () => {
       image: 'https://images.pexels.com/photos/912050/pexels-photo-912050.jpeg?auto=compress&cs=tinysrgb&w=800'
     },
     {
-      icon: <FileText className="h-12 w-12" />,
+      icon: <FileText className="h-8 w-8" />,
       title: 'Visa',
       description: 'We assist with visa applications worldwide. Just a passport and a photo needed.',
       color: 'from-green-500 to-green-600',
@@ -147,7 +147,7 @@ const Home: React.FC = () => {
       image: 'https://images.pexels.com/photos/1591373/pexels-photo-1591373.jpeg?auto=compress&cs=tinysrgb&w=800'
     },
     {
-      icon: <Building className="h-12 w-12" />,
+      icon: <Building2 className="h-8 w-8" />,
       title: 'Umrah',
       description: 'Tailored Umrah packages with full service including hotels, flights, visas, and barcode.',
       color: 'from-purple-500 to-purple-600',
