@@ -342,7 +342,7 @@ const Home: React.FC = () => {
             <Hotel className="w-full h-full animate-float" />
           </div>
           <div className="absolute bottom-20 left-1/4 w-14 h-14 text-blue-200/30">
-            <Building className="w-full h-full animate-float" style={{animationDelay: '1s'}} />
+            <Building2 className="w-full h-full animate-float" style={{animationDelay: '1s'}} />
           </div>
           <div className="absolute bottom-10 right-1/3 w-10 h-10 text-green-200/30">
             <FileText className="w-full h-full animate-bounce-slow" style={{animationDelay: '2s'}} />
